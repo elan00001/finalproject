@@ -8,5 +8,3 @@ x_s = 250 #define standard width
 y_s = y * x_s / x #calc height based on standard width
 out = im.resize((x_s,y_s),Image.ANTIALIAS) #resize image with high-quality
 out.save(outfile)
-
-im2 = Image.open(outfile)
